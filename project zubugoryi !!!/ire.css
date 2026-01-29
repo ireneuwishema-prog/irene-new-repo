@@ -1,0 +1,19 @@
+.div1{
+    color: red;
+    border: 1px groove black;
+    animation: emmy 2s infinite;
+}
+@keyframes emmy {
+    0% {
+            background-color: yellow;
+    }
+    50% {
+        background-color: green;
+    }
+    100% {
+        background-color: yellow;
+    }
+}
+input{
+    border: 10px solid goldenrod;
+}

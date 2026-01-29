@@ -1,0 +1,158 @@
+
+/* <script>
+            function  but(){
+                let but=document.getElementById("but");
+                but.style.backgroundColor="blue";
+            }
+        </script> */
+h1{
+    background: linear-gradient(red,red,blue);
+    -webkit-background-clip: text;  
+    background-clip: text;
+}
+p{
+    color: black;
+}
+p:hover{
+    color: rgb(94, 20, 20);
+    font-size: x-large;
+}
+li:hover{
+color: red;
+font-size: large;
+}
+h2{
+    color: blue;
+    text-decoration: underline;
+}
+img{
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px green;
+
+}
+img:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+a:hover{
+    color: red;
+    font-size: large;
+}
+button{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px green;
+}
+button:hover{
+    background-color: rgb(60, 60, 114);
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 1.5s;
+}
+section{
+    background-color: lightgrey;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px grey;
+    margin: 20px;
+}
+section:hover{
+    background-color: springgreen;
+    transition: all 1.5s;
+}
+div{
+    margin: 10px;
+}
+div:hover{
+    transition: all 0.9s;
+    border-radius: 10px;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+ul:hover{
+    transition: all 0.5s;
+}
+li{
+    padding: 5px;
+}
+li{
+    margin: 5px;
+    border-radius: 5px;
+    padding: 10px;
+}
+li:hover{
+    transition: all 0.5s;
+}
+footer{
+    background-color: lightgrey;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px blue;
+    text-align: center;
+}
+footer:hover{
+    background-color: green;
+    transition: all 1.5s;
+}
+.container{
+  margin: 100px auto;
+  width: 90%;
+  border-radius: 5px solid red;
+  display: flex;
+  overflow-x:  auto;
+  animation: sc 5s infinite linear;
+}
+.container::-webkit-scrollbar{
+    display: none;
+}
+@keyframes sc{
+    0%{transform: translateX(0);}
+    100%{transform: translateX(-100%);}
+}
+.groups{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 1rem;
+}
+.umwe{
+    flex: 0 0 5rem;
+    height:2rem;
+    padding: 1rem;
+    background-color: cornflowerblue;
+    font-size: 3rem;
+    border-radius:  .2rem;
+    text-align: center;
+    align-content: center;
+}
+.x{
+   background-color: aqua; 
+   width: 300px;
+   height: 300px;
+   border-radius: 2rem;
+}
+img{
+   padding: 10px;
+}
+.r{
+    background-color: black;
+    width: 400px;
+    height: 300px;
+    border-radius: 2rem;
+}
+.g{
+    background-color: black;
+}
+.f{
+    background-color: black;
+}
+.d{
+    background-color: black;
+}
+.u{
+    background-color: black;
+}

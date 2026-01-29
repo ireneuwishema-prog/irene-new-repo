@@ -1,0 +1,42 @@
+input{
+    padding: 10px;
+    border: 10px groove blue;
+    color: blue;
+    text-align: center;
+}
+input:hover{
+    color: black;
+}
+button{
+    border: 10px solid springgreen;
+    animation: irene 2.4s
+
+}
+a{
+    text-decoration: none;
+}
+button:hover{
+    color: rgb(26, 26, 66);
+    font-size: 10px;
+
+}
+@keyframes irene{
+    0%{
+        border-color: aqua;
+    }
+    10%{
+        border-color: black;
+    }
+    50%{
+        border-color: violet;
+    }
+    60%{
+        border-color: brown;
+    }
+    90%{
+        border-color: blueviolet;
+    }
+    100%{
+        border-color: chartreuse;
+    }
+}

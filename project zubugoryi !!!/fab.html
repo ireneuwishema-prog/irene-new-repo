@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart City</title>
+  <link rel="stylesheet" href="fab.css">
+</head>
+<body>
+
+<button onclick="toggleNight()">🌙 / ☀️</button>
+
+<div class="sky">
+  <div class="sun"></div>
+  <div class="moon"></div>
+</div>
+
+<div class="city">
+  <div class="house">
+    <div class="roof"></div>
+    <div class="door"></div>
+  </div>
+
+  <div class="tree"></div>
+
+  <!-- PERSON -->
+  <div class="person">
+    <div class="head"></div>
+    <div class="body"></div>
+    <div class="leg left"></div>
+    <div class="leg right"></div>
+  </div>
+</div>
+
+<div class="road">
+  <div class="car">
+    <div class="wheel left"></div>
+    <div class="wheel right"></div>
+  </div>
+</div>
+
+<script>
+  function toggleNight() {
+    document.body.classList.toggle("night");
+  }
+</script>
+
+</body>
+</html>
